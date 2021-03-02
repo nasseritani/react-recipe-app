@@ -1,12 +1,12 @@
-import "./styles.css";
+import "../src/styles.css";
 import Nav from "./Components/Nav";
 import About from "./Components/About";
 import { Recipes } from "./Recipes";
 import { RecipeProvider } from "./Components/context/RecipeContext";
 
-import RecipeDetail from "./RecipeDetail";
+import RecipeDetail from "./Components/Recipe/RecipeDetail";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import LandingPage from "./LandingPage";
+import LandingPage from "./Components/LandingPage";
 export default function App() {
   return (
     <Router>
