@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { RecipeContext } from "./RecipeContext";
+import { RecipeContext } from "../context/RecipeContext";
 import Recipe from "./Recipe";
 const RecipeDetails = ({ match }) => {
   const context = useContext(RecipeContext);

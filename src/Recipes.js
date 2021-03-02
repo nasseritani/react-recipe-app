@@ -1,6 +1,6 @@
 import { useEffect, useState, React, useContext } from "react";
-import Recipe from "./Recipe";
-import { RecipeContext } from "./RecipeContext";
+import Recipe from "./Components/Recipe/Recipe";
+import { RecipeContext } from "./Components/context/RecipeContext";
 
 import ReactPaginate from "react-paginate";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

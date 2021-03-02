@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import { RecipeContext } from "./Recipes";
 
 import React, { useContext, useState } from "react";
 import RecipeIngredient from "./RecipeIngredient";

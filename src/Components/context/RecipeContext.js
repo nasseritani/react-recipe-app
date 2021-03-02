@@ -1,9 +1,9 @@
 import { useEffect, useState, React, createContext } from "react";
-import Recipe from "./Recipe";
+import Recipe from "../Recipe/Recipe";
 import ReactPaginate from "react-paginate";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
-import Favorite from "./Favorite";
+import Favorite from "../Favorite";
 export const RecipeContext = createContext();
 
 export const RecipeProvider = ({ children }) => {

@@ -1,4 +1,3 @@
-import "./About.module.css";
 const About = () => {
   return (
     <div class="about">

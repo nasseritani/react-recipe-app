@@ -1,6 +1,6 @@
-import { RecipeProvider, RecipeContext } from "./RecipeContext";
+import { RecipeProvider, RecipeContext } from "./context/RecipeContext";
 import React, { useContext, useEffect, useState } from "react";
-import RecipeDetails from "./RecipeDetail";
+import RecipeDetails from "../Components/Recipe/RecipeDetail";
 import Recipe from "./Recipe";
 const Favorite = () => {
   const context = useContext(RecipeContext);

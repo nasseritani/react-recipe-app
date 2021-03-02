@@ -2,7 +2,7 @@ import Favorite from "./Favorite";
 import "./styles.css";
 import { BoxLoading } from "react-loadingg";
 import Carousels from "./Carousel";
-import { RecipeContext } from "./RecipeContext";
+import { RecipeContext } from "./Components/context/RecipeContext";
 import { useContext } from "react";
 import Footer from "./Footer";
 import Contact from "./Contact";

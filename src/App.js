@@ -1,8 +1,8 @@
 import "./styles.css";
-import Nav from "./Nav";
-import About from "./About";
+import Nav from "./Components/Nav";
+import About from "./Components/About";
 import { Recipes } from "./Recipes";
-import { RecipeProvider } from "./RecipeContext";
+import { RecipeProvider } from "./Components/context/RecipeContext";
 
 import RecipeDetail from "./RecipeDetail";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
